@@ -1,0 +1,82 @@
+Log created: 2020-10-29 16:12:19
+Type: backup
+[2020-10-29 16:12:23][notice]Start backing up.
+[2020-10-29 16:12:23][notice]server info fcgi:Off max execution time: 900 wp version:5.5.1 php version:7.4.9 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:47.31 MB memory_get_peak_usage:48.04 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2020-10-29 16:12:23][notice]Prepare to backup backup_db files.
+[2020-10-29 16:12:23][notice]Start exporting database.
+[2020-10-29 16:12:23][notice]max_allowed_packet less than 32M :1.00 MB
+[2020-10-29 16:12:23][notice]Preparing to dump table wp_actionscheduler_actions
+[2020-10-29 16:12:23][notice]Preparing to dump table wp_actionscheduler_claims
+[2020-10-29 16:12:23][notice]Preparing to dump table wp_actionscheduler_groups
+[2020-10-29 16:12:23][notice]Preparing to dump table wp_actionscheduler_logs
+[2020-10-29 16:12:24][notice]Preparing to dump table wp_commentmeta
+[2020-10-29 16:12:24][notice]Preparing to dump table wp_comments
+[2020-10-29 16:12:24][notice]Preparing to dump table wp_links
+[2020-10-29 16:12:24][notice]Preparing to dump table wp_options
+[2020-10-29 16:12:24][notice]Preparing to dump table wp_postmeta
+[2020-10-29 16:12:27][notice]Preparing to dump table wp_posts
+[2020-10-29 16:12:27][notice]Preparing to dump table wp_termmeta
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_terms
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_term_relationships
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_term_taxonomy
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_usermeta
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_users
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2020-10-29 16:12:28][notice]Preparing to dump table wp_wpvivid_scan_result
+[2020-10-29 16:12:29][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2020-10-29 16:12:29][notice]Exporting database finished.
+[2020-10-29 16:12:29][notice]Start compressing backup_db
+[2020-10-29 16:12:29][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_db.zip
+[2020-10-29 16:12:30][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_db.zip, filesize: 2.77 MB
+[2020-10-29 16:12:30][notice]Compressing backup_db completed
+[2020-10-29 16:12:30][notice]Backing up backup_db completed.
+[2020-10-29 16:12:30][notice]Prepare to backup backup_themes files.
+[2020-10-29 16:12:30][notice]File number: 619
+[2020-10-29 16:12:30][notice]Start compressing backup_themes
+[2020-10-29 16:12:31][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_themes.zip
+[2020-10-29 16:12:38][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_themes.zip, filesize: 9.01 MB
+[2020-10-29 16:12:38][notice]Compressing backup_themes completed
+[2020-10-29 16:12:38][notice]Backing up backup_themes completed.
+[2020-10-29 16:12:39][notice]Prepare to backup backup_plugin files.
+[2020-10-29 16:12:39][notice]File number: 3023
+[2020-10-29 16:12:39][notice]Start compressing backup_plugin
+[2020-10-29 16:12:43][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_plugin.zip
+[2020-10-29 16:13:07][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_plugin.zip, filesize: 51.16 MB
+[2020-10-29 16:13:07][notice]Compressing backup_plugin completed
+[2020-10-29 16:13:07][notice]Backing up backup_plugin completed.
+[2020-10-29 16:13:07][notice]Prepare to backup backup_uploads files.
+[2020-10-29 16:13:07][notice]File number: 389
+[2020-10-29 16:13:07][notice]Start compressing backup_uploads
+[2020-10-29 16:13:07][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_uploads.zip
+[2020-10-29 16:13:15][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_uploads.zip, filesize: 15.28 MB
+[2020-10-29 16:13:15][notice]Compressing backup_uploads completed
+[2020-10-29 16:13:15][notice]Backing up backup_uploads completed.
+[2020-10-29 16:13:15][notice]Prepare to backup backup_content files.
+[2020-10-29 16:13:15][notice]File number: 1
+[2020-10-29 16:13:15][notice]Start compressing backup_content
+[2020-10-29 16:13:15][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_content.zip
+[2020-10-29 16:13:15][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_content.zip, filesize: 434.00 B
+[2020-10-29 16:13:15][notice]Compressing backup_content completed
+[2020-10-29 16:13:15][notice]Backing up backup_content completed.
+[2020-10-29 16:13:16][notice]Prepare to backup backup_core files.
+[2020-10-29 16:13:16][notice]File number: 1743
+[2020-10-29 16:13:16][notice]Start compressing backup_core
+[2020-10-29 16:13:18][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_core.zip
+[2020-10-29 16:13:45][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_core.zip, filesize: 41.77 MB
+[2020-10-29 16:13:45][notice]Compressing backup_core completed
+[2020-10-29 16:13:45][notice]Backing up backup_core completed.
+[2020-10-29 16:13:46][notice]Prepare to backup backup_merge files.
+[2020-10-29 16:13:46][notice]File number: 6
+[2020-10-29 16:13:46][notice]Start compressing backup_merge
+[2020-10-29 16:13:46][notice]Prepare to zip files. file: localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_all.zip
+[2020-10-29 16:13:53][notice]Adding zip files completed.localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_all.zip, filesize: 53.17 MB
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_plugin.zip
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_core.zip
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_uploads.zip
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_themes.zip
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_db.zip
+[2020-10-29 16:13:53][notice]Cleaned up file, filename: E:\xampp\htdocs\netplatoon.com/wp-content\wpvividbackups\localhost_netplatoon.com_wpvivid-5f9ae9e357907_2020-10-29-16-12_backup_content.zip
+[2020-10-29 16:13:53][notice]Compressing backup_merge completed
+[2020-10-29 16:13:53][notice]Backing up backup_merge completed.
+[2020-10-29 16:13:53][notice]Backup completed.
+[2020-10-29 16:13:53][notice]Backup succeeded.
